@@ -125,7 +125,8 @@ class TestGithubOrgClient(unittest.TestCase):
     },
 ])
 class TestIntegrationGithubOrgClient(unittest.TestCase):
-    """The Performs integration tests for the class, GithubOrgClient."""
+    """The Performs integration tests for
+    the class, GithubOrgClient."""
     @classmethod
     def setUpClass(cls) -> None:
         """This sets up the class fixtures before running tests."""
@@ -158,5 +159,6 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        """Removing the class fixtures after running all the tests_"""
+        """Removing the class fixtures
+        after running all the tests_"""
         cls.get_patcher.stop()
